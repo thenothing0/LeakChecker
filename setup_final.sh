@@ -85,7 +85,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 SHODAN_API_KEY = os.getenv("SHODAN_KEY", "")
 VT_API_KEY = os.getenv("VT_API_KEY", "")
 ST_API_KEY = os.getenv("ST_API_KEY", "")
-INTELX_API_KEY = os.getenv("INTELX_KEY", "9df61df0-84f7-4dc7-b34c-8ccfb8646ee9")
+INTELX_API_KEY = os.getenv("INTELX_KEY", "")
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK", "")
 SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK", "")
@@ -2680,4 +2680,5 @@ if __name__ == "__main__":
     except Exception as e: console.print(f"\n[red]Error: {e}[/]"); sys.exit(1)
 MAINEOF
 echo "  ✅ main.py"
+
 
